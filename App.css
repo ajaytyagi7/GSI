@@ -62,10 +62,11 @@ header{
     /* width: 550px; */
 }
 
-/* .pop:hover {
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-    transform: translateY(-10px);
-} */
+.pop:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  /* transform: translateY(-10px); */
+}
+
 
 .popup-content {
     background: #ca63df; 
@@ -233,5 +234,13 @@ color: white;
     }
   }
   
+  .hover-card{
+    color: white;
+  }
+
+  .hover-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-10px);
+}
 
   
